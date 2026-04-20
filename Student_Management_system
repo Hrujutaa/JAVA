@@ -18,7 +18,7 @@ class Student extends Person {
     double marks;
 
     Student(String name, int age, int rollNo, double marks) {
-        super(name, age); // Call parent constructor
+        super(name, age); 
         this.rollNo = rollNo;
         this.marks = marks;
     }
@@ -46,12 +46,12 @@ class GraduateStudent extends Student {
 
 public class StudentManagementSystem {
     public static void main(String[] args) {
-        GraduateStudent gs = new GraduateStudent(
+        GraduateStudent s1 = new GraduateStudent(
             "abcd", 21, 101, 85.5, "Computer Science"
         );
 
         System.out.println("Graduate Student Details:");
-        gs.displayGraduateStudent();
+        s1.displayGraduateStudent();
     }
 }
 Graduate Student Details:
