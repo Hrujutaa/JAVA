@@ -47,7 +47,7 @@ class GraduateStudent extends Student {
 public class StudentManagementSystem {
     public static void main(String[] args) {
         GraduateStudent gs = new GraduateStudent(
-            "Aryan", 21, 101, 85.5, "Computer Science"
+            "abcd", 21, 101, 85.5, "Computer Science"
         );
 
         System.out.println("Graduate Student Details:");
